@@ -3,45 +3,153 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6515656F267A65530028BC27 /* StocKInvesmentCalculatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515656E267A65530028BC27 /* StocKInvesmentCalculatorTableViewController.swift */; };
+		65156572267A683D0028BC27 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156571267A683D0028BC27 /* Asset.swift */; };
+		65156575267A94590028BC27 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156574267A94580028BC27 /* String-Extension.swift */; };
+		6515657E267B7C450028BC27 /* Textfield-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515657D267B7C450028BC27 /* Textfield-Extension.swift */; };
+		65156581267BB1000028BC27 /* DateSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156580267BB1000028BC27 /* DateSelectionTableViewController.swift */; };
+		65156588267BCDF50028BC27 /* Date-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156587267BCDF40028BC27 /* Date-Extension.swift */; };
+		65156593267C33250028BC27 /* Int-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156592267C33250028BC27 /* Int-Extension.swift */; };
+		65156596267CF0170028BC27 /* dcaServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156595267CF0170028BC27 /* dcaServices.swift */; };
+		65156599267DFCD00028BC27 /* Double-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65156598267DFCCF0028BC27 /* Double-Extension.swift */; };
+		651565A0267E02690028BC27 /* Color-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6515659F267E02690028BC27 /* Color-Extension.swift */; };
+		651565AD267F895A0028BC27 /* StockInvestCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651565AC267F895A0028BC27 /* StockInvestCalculatorTests.swift */; };
+		653E3D3B2674FB9500A947CF /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 653E3D3A2674FB9500A947CF /* Readme.rtf */; };
+		653E3D3E2675194500A947CF /* UIAnimable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3D3D2675194500A947CF /* UIAnimable.swift */; };
+		65A4483226784379002FC835 /* TimeSeriesMonthlyAdjusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4483126784379002FC835 /* TimeSeriesMonthlyAdjusted.swift */; };
+		65B5CD5A2682B7C100CB9837 /* AfterCalculationViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B5CD592682B7C100CB9837 /* AfterCalculationViewPresenter.swift */; };
 		65B67889266FDCDB009EFB2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B67888266FDCDB009EFB2B /* AppDelegate.swift */; };
 		65B6788B266FDCDB009EFB2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6788A266FDCDB009EFB2B /* SceneDelegate.swift */; };
-		65B6788D266FDCDB009EFB2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6788C266FDCDB009EFB2B /* ViewController.swift */; };
+		65B6788D266FDCDB009EFB2B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6788C266FDCDB009EFB2B /* SearchTableViewController.swift */; };
 		65B67890266FDCDB009EFB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6788E266FDCDB009EFB2B /* Main.storyboard */; };
 		65B67892266FDCDE009EFB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B67891266FDCDE009EFB2B /* Assets.xcassets */; };
 		65B67895266FDCDE009EFB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B67893266FDCDE009EFB2B /* LaunchScreen.storyboard */; };
+		65B6789E266FDD7D009EFB2B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 65B6789D266FDD7D009EFB2B /* Podfile */; };
+		65B678A9267013C0009EFB2B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B678A8267013C0009EFB2B /* SearchTableViewCell.swift */; };
+		65B678B22672110A009EFB2B /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B678B12672110A009EFB2B /* APIServices.swift */; };
+		65B678B7267213EF009EFB2B /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B678B6267213EF009EFB2B /* SearchResults.swift */; };
+		65B678C42673008F009EFB2B /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B678C32673008E009EFB2B /* SearchPlaceholderView.swift */; };
+		B0B24AADAADBA9B88D37FE5B /* Pods_StockInvestCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B1BB61111572A1B524FE7 /* Pods_StockInvestCalculator.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		651565AF267F895A0028BC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B6787D266FDCDB009EFB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B67884266FDCDB009EFB2B;
+			remoteInfo = StockInvestCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5A66AA3D08993A66640C26D0 /* Pods-StockInvestCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockInvestCalculator.debug.xcconfig"; path = "Target Support Files/Pods-StockInvestCalculator/Pods-StockInvestCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		6515656E267A65530028BC27 /* StocKInvesmentCalculatorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocKInvesmentCalculatorTableViewController.swift; sourceTree = "<group>"; };
+		65156571267A683D0028BC27 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		65156574267A94580028BC27 /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		6515657D267B7C450028BC27 /* Textfield-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Textfield-Extension.swift"; sourceTree = "<group>"; };
+		65156580267BB1000028BC27 /* DateSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionTableViewController.swift; sourceTree = "<group>"; };
+		65156587267BCDF40028BC27 /* Date-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-Extension.swift"; sourceTree = "<group>"; };
+		65156592267C33250028BC27 /* Int-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int-Extension.swift"; sourceTree = "<group>"; };
+		65156595267CF0170028BC27 /* dcaServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dcaServices.swift; sourceTree = "<group>"; };
+		65156598267DFCCF0028BC27 /* Double-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double-Extension.swift"; sourceTree = "<group>"; };
+		6515659F267E02690028BC27 /* Color-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Extension.swift"; sourceTree = "<group>"; };
+		651565AA267F895A0028BC27 /* StockInvestCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockInvestCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651565AC267F895A0028BC27 /* StockInvestCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInvestCalculatorTests.swift; sourceTree = "<group>"; };
+		651565AE267F895A0028BC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E3D3A2674FB9500A947CF /* Readme.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+		653E3D3D2675194500A947CF /* UIAnimable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimable.swift; sourceTree = "<group>"; };
+		65A4483126784379002FC835 /* TimeSeriesMonthlyAdjusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesMonthlyAdjusted.swift; sourceTree = "<group>"; };
+		65B5CD592682B7C100CB9837 /* AfterCalculationViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterCalculationViewPresenter.swift; sourceTree = "<group>"; };
 		65B67885266FDCDB009EFB2B /* StockInvestCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockInvestCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B67888266FDCDB009EFB2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B6788A266FDCDB009EFB2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		65B6788C266FDCDB009EFB2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B6788C266FDCDB009EFB2B /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		65B6788F266FDCDB009EFB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65B67891266FDCDE009EFB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65B67894266FDCDE009EFB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65B67896266FDCDE009EFB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B6789D266FDD7D009EFB2B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		65B678A8267013C0009EFB2B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		65B678B12672110A009EFB2B /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		65B678B6267213EF009EFB2B /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		65B678C32673008E009EFB2B /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
+		A20B1BB61111572A1B524FE7 /* Pods_StockInvestCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockInvestCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDF15EF10F5D4A54579F8AC /* Pods-StockInvestCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockInvestCalculator.release.xcconfig"; path = "Target Support Files/Pods-StockInvestCalculator/Pods-StockInvestCalculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65B67882266FDCDB009EFB2B /* Frameworks */ = {
+		651565A7267F895A0028BC27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65B67882266FDCDB009EFB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B24AADAADBA9B88D37FE5B /* Pods_StockInvestCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0665F3586210E325FEB2D2C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A66AA3D08993A66640C26D0 /* Pods-StockInvestCalculator.debug.xcconfig */,
+				AFDF15EF10F5D4A54579F8AC /* Pods-StockInvestCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		630C8A475F51D9E65E73721E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20B1BB61111572A1B524FE7 /* Pods_StockInvestCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65156577267A946D0028BC27 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				65156574267A94580028BC27 /* String-Extension.swift */,
+				6515657D267B7C450028BC27 /* Textfield-Extension.swift */,
+				65156587267BCDF40028BC27 /* Date-Extension.swift */,
+				65156592267C33250028BC27 /* Int-Extension.swift */,
+				65156598267DFCCF0028BC27 /* Double-Extension.swift */,
+				6515659F267E02690028BC27 /* Color-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		651565AB267F895A0028BC27 /* StockInvestCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				651565AC267F895A0028BC27 /* StockInvestCalculatorTests.swift */,
+				651565AE267F895A0028BC27 /* Info.plist */,
+			);
+			path = StockInvestCalculatorTests;
+			sourceTree = "<group>";
+		};
 		65B6787C266FDCDB009EFB2B = {
 			isa = PBXGroup;
 			children = (
+				653E3D3A2674FB9500A947CF /* Readme.rtf */,
+				65B6789D266FDD7D009EFB2B /* Podfile */,
 				65B67887266FDCDB009EFB2B /* StockInvestCalculator */,
+				651565AB267F895A0028BC27 /* StockInvestCalculatorTests */,
 				65B67886266FDCDB009EFB2B /* Products */,
+				0665F3586210E325FEB2D2C0 /* Pods */,
+				630C8A475F51D9E65E73721E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				65B67885266FDCDB009EFB2B /* StockInvestCalculator.app */,
+				651565AA267F895A0028BC27 /* StockInvestCalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,10 +165,13 @@
 		65B67887266FDCDB009EFB2B /* StockInvestCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				65156577267A946D0028BC27 /* Extension */,
+				65B678B5267213D9009EFB2B /* Model */,
+				65B678B4267213BA009EFB2B /* Services */,
+				65B678A72670139E009EFB2B /* Controller */,
+				65B678A626701395009EFB2B /* View */,
 				65B67888266FDCDB009EFB2B /* AppDelegate.swift */,
 				65B6788A266FDCDB009EFB2B /* SceneDelegate.swift */,
-				65B6788C266FDCDB009EFB2B /* ViewController.swift */,
-				65B6788E266FDCDB009EFB2B /* Main.storyboard */,
 				65B67891266FDCDE009EFB2B /* Assets.xcassets */,
 				65B67893266FDCDE009EFB2B /* LaunchScreen.storyboard */,
 				65B67896266FDCDE009EFB2B /* Info.plist */,
@@ -67,16 +179,77 @@
 			path = StockInvestCalculator;
 			sourceTree = "<group>";
 		};
+		65B678A626701395009EFB2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65B6788E266FDCDB009EFB2B /* Main.storyboard */,
+				65B678A8267013C0009EFB2B /* SearchTableViewCell.swift */,
+				65B678C32673008E009EFB2B /* SearchPlaceholderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65B678A72670139E009EFB2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65B6788C266FDCDB009EFB2B /* SearchTableViewController.swift */,
+				6515656E267A65530028BC27 /* StocKInvesmentCalculatorTableViewController.swift */,
+				65156580267BB1000028BC27 /* DateSelectionTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65B678B4267213BA009EFB2B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				65B678B12672110A009EFB2B /* APIServices.swift */,
+				65156595267CF0170028BC27 /* dcaServices.swift */,
+				65B5CD592682B7C100CB9837 /* AfterCalculationViewPresenter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		65B678B5267213D9009EFB2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65B678B6267213EF009EFB2B /* SearchResults.swift */,
+				653E3D3D2675194500A947CF /* UIAnimable.swift */,
+				65A4483126784379002FC835 /* TimeSeriesMonthlyAdjusted.swift */,
+				65156571267A683D0028BC27 /* Asset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		651565A9267F895A0028BC27 /* StockInvestCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651565B1267F895B0028BC27 /* Build configuration list for PBXNativeTarget "StockInvestCalculatorTests" */;
+			buildPhases = (
+				651565A6267F895A0028BC27 /* Sources */,
+				651565A7267F895A0028BC27 /* Frameworks */,
+				651565A8267F895A0028BC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651565B0267F895A0028BC27 /* PBXTargetDependency */,
+			);
+			name = StockInvestCalculatorTests;
+			productName = StockInvestCalculatorTests;
+			productReference = 651565AA267F895A0028BC27 /* StockInvestCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		65B67884266FDCDB009EFB2B /* StockInvestCalculator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B67899266FDCDE009EFB2B /* Build configuration list for PBXNativeTarget "StockInvestCalculator" */;
 			buildPhases = (
+				D3BA63CDEC7C1432BE383458 /* [CP] Check Pods Manifest.lock */,
 				65B67881266FDCDB009EFB2B /* Sources */,
 				65B67882266FDCDB009EFB2B /* Frameworks */,
 				65B67883266FDCDB009EFB2B /* Resources */,
+				729D8EAC5F86D5FDE1279507 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +269,10 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					651565A9267F895A0028BC27 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 65B67884266FDCDB009EFB2B;
+					};
 					65B67884266FDCDB009EFB2B = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -115,35 +292,120 @@
 			projectRoot = "";
 			targets = (
 				65B67884266FDCDB009EFB2B /* StockInvestCalculator */,
+				651565A9267F895A0028BC27 /* StockInvestCalculatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		651565A8267F895A0028BC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65B67883266FDCDB009EFB2B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				65B67895266FDCDE009EFB2B /* LaunchScreen.storyboard in Resources */,
 				65B67892266FDCDE009EFB2B /* Assets.xcassets in Resources */,
+				65B6789E266FDD7D009EFB2B /* Podfile in Resources */,
+				653E3D3B2674FB9500A947CF /* Readme.rtf in Resources */,
 				65B67890266FDCDB009EFB2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		729D8EAC5F86D5FDE1279507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockInvestCalculator/Pods-StockInvestCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockInvestCalculator/Pods-StockInvestCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockInvestCalculator/Pods-StockInvestCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BA63CDEC7C1432BE383458 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockInvestCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		651565A6267F895A0028BC27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651565AD267F895A0028BC27 /* StockInvestCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65B67881266FDCDB009EFB2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B6788D266FDCDB009EFB2B /* ViewController.swift in Sources */,
+				65156599267DFCD00028BC27 /* Double-Extension.swift in Sources */,
+				65156581267BB1000028BC27 /* DateSelectionTableViewController.swift in Sources */,
+				65B6788D266FDCDB009EFB2B /* SearchTableViewController.swift in Sources */,
+				65B678A9267013C0009EFB2B /* SearchTableViewCell.swift in Sources */,
+				65156593267C33250028BC27 /* Int-Extension.swift in Sources */,
+				65156575267A94590028BC27 /* String-Extension.swift in Sources */,
+				651565A0267E02690028BC27 /* Color-Extension.swift in Sources */,
+				653E3D3E2675194500A947CF /* UIAnimable.swift in Sources */,
+				65156572267A683D0028BC27 /* Asset.swift in Sources */,
 				65B67889266FDCDB009EFB2B /* AppDelegate.swift in Sources */,
+				65A4483226784379002FC835 /* TimeSeriesMonthlyAdjusted.swift in Sources */,
 				65B6788B266FDCDB009EFB2B /* SceneDelegate.swift in Sources */,
+				65156596267CF0170028BC27 /* dcaServices.swift in Sources */,
+				65156588267BCDF50028BC27 /* Date-Extension.swift in Sources */,
+				65B5CD5A2682B7C100CB9837 /* AfterCalculationViewPresenter.swift in Sources */,
+				65B678B7267213EF009EFB2B /* SearchResults.swift in Sources */,
+				65B678B22672110A009EFB2B /* APIServices.swift in Sources */,
+				6515656F267A65530028BC27 /* StocKInvesmentCalculatorTableViewController.swift in Sources */,
+				6515657E267B7C450028BC27 /* Textfield-Extension.swift in Sources */,
+				65B678C42673008F009EFB2B /* SearchPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651565B0267F895A0028BC27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B67884266FDCDB009EFB2B /* StockInvestCalculator */;
+			targetProxy = 651565AF267F895A0028BC27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		65B6788E266FDCDB009EFB2B /* Main.storyboard */ = {
@@ -165,6 +427,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		651565B2267F895B0028BC27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J65KFMVT3;
+				INFOPLIST_FILE = StockInvestCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muw.planner.StockInvestCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockInvestCalculator.app/StockInvestCalculator";
+			};
+			name = Debug;
+		};
+		651565B3267F895B0028BC27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5J65KFMVT3;
+				INFOPLIST_FILE = StockInvestCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muw.planner.StockInvestCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockInvestCalculator.app/StockInvestCalculator";
+			};
+			name = Release;
+		};
 		65B67897266FDCDE009EFB2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -216,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +585,7 @@
 		};
 		65B6789A266FDCDE009EFB2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A66AA3D08993A66640C26D0 /* Pods-StockInvestCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +605,7 @@
 		};
 		65B6789B266FDCDE009EFB2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDF15EF10F5D4A54579F8AC /* Pods-StockInvestCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,6 +626,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		651565B1267F895B0028BC27 /* Build configuration list for PBXNativeTarget "StockInvestCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651565B2267F895B0028BC27 /* Debug */,
+				651565B3267F895B0028BC27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		65B67880266FDCDB009EFB2B /* Build configuration list for PBXProject "StockInvestCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
